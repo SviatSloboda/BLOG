@@ -1,0 +1,56 @@
+h1{
+  align-items: center;
+}
+
+p, a{
+  font-family: "Times New Roman", serif;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+q {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+q::before {
+  content: open-quote;
+}
+
+q::after {
+  content: close-quote;
+}
+
+li:first-child {
+  background-color: #e0ffff;
+}
+
+li:nth-child(2) {
+  background-color: indianred;
+}
+
+li:nth-child(3) {
+  background-color: lightgreen;
+}
